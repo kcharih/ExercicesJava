@@ -16,7 +16,15 @@ public class HelloWorld {
 	 */
 	public static void main(String[] args) {
 		// TODO Ajouter des commentaires
-		System.out.println("Hello World");	
+
+		/*
+		 * Ceci est mon 1er programme et il marche plutot pas mal
+		 */
+		
+		// Commentaire sur une ligne
+
+
+		System.out.println("Hello World");
 		System.out.println("My second message");
 		System.out.println("New message");
 	}
