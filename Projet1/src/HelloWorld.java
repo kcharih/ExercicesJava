@@ -18,7 +18,7 @@ public class HelloWorld {
 		// TODO Ajouter des commentaires
 		System.out.println("Hello World");	
 		System.out.println("My second message");
-		
+		System.out.println("New message");
 	}
 
 }
