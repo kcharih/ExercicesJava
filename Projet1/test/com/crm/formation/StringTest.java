@@ -11,7 +11,7 @@ package com.crm.formation;
 public class StringTest {
 
 	/**
-	 * @param args
+	 * @param args paramètres du programme
 	 */
 	public static void main(String[] args) {
 		String texte = "Bonjour";

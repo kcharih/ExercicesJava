@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class LectureClavierTest {
 
 	/**
-	 * @param args
+	 * @param args paramètres du programme
 	 */
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
