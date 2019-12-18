@@ -23,8 +23,11 @@ public class HelloWorld {
 		
 		// Commentaire sur une ligne
 
+		{
+			
+		}
 
-		System.out.println("Hello World");
+		System.out.println("Hello World !!!");
 		System.out.println("My second message");
 		System.out.println("New message");
 	}
