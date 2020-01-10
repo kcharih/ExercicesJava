@@ -1,3 +1,4 @@
+package com.crm.mytest;
 
 public class MethodesMaths {
 	public static int somme(int a, int b) {

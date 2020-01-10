@@ -1,4 +1,5 @@
 import com.crm.api.Utils;
+import com.crm.mytest.MethodesMaths;
 
 /**
  * 
@@ -14,16 +15,26 @@ public class ApplicationMethod {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		int nb1 = 2;
-		int nb2 = 3;
-		int s1 = Utils.somme(nb1, nb2);
-		System.out.println(s1);
+		int nb1 = 3;
+		int nb2 = 2;
+//		int s1 = Utils.somme(nb1, nb2);
+//		System.out.println(s1);
+//		
+//		int difference = MethodesMaths.soustraction(nb1, nb2);
+//		System.out.println(difference);
+//		
+//		String str = "Bonjour";
+//		Utils.afficherMessage(str);	
+//		
+//		System.out.println(Utils.PI);
 		
-		int difference = MethodesMaths.soustraction(nb1, nb2);
-		System.out.println(difference);
+//		int maxNb = Math.max(nb1, nb2);
+//		System.out.println(maxNb);
+	
+//		System.out.println(Utils.PI);
 		
-		String str = "Bonjour";
-		Utils.afficherMessage(str);		
+		final double MON_PI = Math.PI;
+		
 	}
 
 }

@@ -3,6 +3,8 @@
  */
 package com.crm.formation;
 
+import com.crm.mytest.MethodesMaths;
+
 /**
  * @author CRM
  *
@@ -61,6 +63,7 @@ public class Test {
 ////		System.out.println(!bool1);
 //		
 
+		MethodesMaths.somme(1,2);
 	}
 
 }
