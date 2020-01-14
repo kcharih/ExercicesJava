@@ -29,7 +29,7 @@ public class Test {
 ////			maVariableInt = 257411;
 //			System.out.println(maVariableInt);
 //		}
-		
+
 //		float maVariableFloat = 2.5F;
 //		double maVariableDouble = 12.3647889;
 //		
@@ -50,7 +50,7 @@ public class Test {
 //		int nb2 = ++nb1;
 //		System.out.println(nb1);
 //		System.out.println(nb2);
-		
+
 //		short nb1, nb2, nb3, nb4;
 //		nb1 = 1;
 //		nb2 = 2;
@@ -63,7 +63,9 @@ public class Test {
 ////		System.out.println(!bool1);
 //		
 
-		MethodesMaths.somme(1,2);
-	}
+//		MethodesMaths.somme(1,2);
 
+		
+
+	}
 }
