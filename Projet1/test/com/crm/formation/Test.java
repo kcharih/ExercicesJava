@@ -3,8 +3,6 @@
  */
 package com.crm.formation;
 
-import com.crm.mytest.MethodesMaths;
-
 /**
  * @author CRM
  *
