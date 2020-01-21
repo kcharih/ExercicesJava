@@ -63,7 +63,20 @@ public class Test {
 
 //		MethodesMaths.somme(1,2);
 
+		String palindrome = "elle";
+		String inverse = "";
+		for (int i = palindrome.length() - 1; i >= 0; i--) {
+			inverse = inverse + palindrome.charAt(i);
+		}
 		
+		System.out.println(inverse);
+		
+		String[] tab = {"lolo","lala"};
+		inverse(tab);
 
+	}
+	
+	public static void inverse(String[] tab) {
+		System.out.println(tab[0]);
 	}
 }
