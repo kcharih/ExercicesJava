@@ -3,6 +3,8 @@
  */
 package com.crm.formation;
 
+import java.util.Arrays;
+
 /**
  * @author CRM
  *
@@ -63,19 +65,36 @@ public class Test {
 
 //		MethodesMaths.somme(1,2);
 
-		String palindrome = "elle";
-		String inverse = "";
-		for (int i = palindrome.length() - 1; i >= 0; i--) {
-			inverse = inverse + palindrome.charAt(i);
+//		String palindrome = "elle";
+//		String inverse = "";
+//		for (int i = palindrome.length() - 1; i >= 0; i--) {
+//			inverse = inverse + palindrome.charAt(i);
+//		}
+//		
+//		System.out.println(inverse);
+//		
+//		String[] tab = {"lolo","lala"};
+//		inverse(tab);
+
+		String chaineSeparateur1 = "chaine1=chaine2=chaine3";
+		String[] tabChaineSplit1 = chaineSeparateur1.split("=");
+		for (String str : tabChaineSplit1) {
+			System.out.println(str);
 		}
 		
-		System.out.println(inverse);
-		
-		String[] tab = {"lolo","lala"};
-		inverse(tab);
+		String chaineSeparateur2 = "chaine1|chaine2|chaine3";
+		String[] tabChaineSplit2 = chaineSeparateur2.split("\\|");
+		for (String str : tabChaineSplit2) {
+			System.out.println(str);
+		}
+
+		int[] tab1 = { 1, 2, 3 };
+		int[] tab2 = { 1, 2, 4 };
+
+		System.out.println(Arrays.equals(tab1, tab2));
 
 	}
-	
+
 	public static void inverse(String[] tab) {
 		System.out.println(tab[0]);
 	}
