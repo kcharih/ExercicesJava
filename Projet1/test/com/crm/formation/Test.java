@@ -76,22 +76,36 @@ public class Test {
 //		String[] tab = {"lolo","lala"};
 //		inverse(tab);
 
-		String chaineSeparateur1 = "chaine1=chaine2=chaine3";
-		String[] tabChaineSplit1 = chaineSeparateur1.split("=");
-		for (String str : tabChaineSplit1) {
-			System.out.println(str);
-		}
-		
-		String chaineSeparateur2 = "chaine1|chaine2|chaine3";
-		String[] tabChaineSplit2 = chaineSeparateur2.split("\\|");
-		for (String str : tabChaineSplit2) {
-			System.out.println(str);
-		}
+//		String chaineSeparateur1 = "chaine1=chaine2=chaine3";
+//		String[] tabChaineSplit1 = chaineSeparateur1.split("=");
+//		for (String str : tabChaineSplit1) {
+//			System.out.println(str);
+//		}
+//		
+//		String chaineSeparateur2 = "chaine1|chaine2|chaine3";
+//		String[] tabChaineSplit2 = chaineSeparateur2.split("\\|");
+//		for (String str : tabChaineSplit2) {
+//			System.out.println(str);
+//		}
+//
+//		int[] tab1 = { 1, 2, 3 };
+//		int[] tab2 = { 1, 2, 4 };
+//
+//		System.out.println(Arrays.equals(tab1, tab2));
 
-		int[] tab1 = { 1, 2, 3 };
-		int[] tab2 = { 1, 2, 4 };
+//		int[][] tab2d = new int[2][3];
 
-		System.out.println(Arrays.equals(tab1, tab2));
+		int[][] tab2d = { { 0, 2, 4 }, { 1, 3, 5 } };
+
+		System.out.println(tab2d[0][2]);
+
+		System.out.println(tab2d.length);
+
+		for (int i = 0; i < tab2d.length; i++) {
+			for (int j = 0; j < tab2d[i].length; j++) {
+				System.out.println(tab2d[i][j]);
+			}
+		}
 
 	}
 
