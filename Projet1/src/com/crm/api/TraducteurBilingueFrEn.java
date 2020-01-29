@@ -9,7 +9,7 @@ import java.util.Scanner;
  * @author CRM
  *
  */
-public class TraduteurBilingueFrEn {
+public class TraducteurBilingueFrEn {
 
 	/**
 	 * @param args
