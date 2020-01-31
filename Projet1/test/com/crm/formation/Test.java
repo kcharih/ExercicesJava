@@ -95,18 +95,26 @@ public class Test {
 
 //		int[][] tab2d = new int[2][3];
 
+//		int[][] tab2d = { { 0, 2, 4 }, { 1, 3, 5 } };
+//		System.out.println(tab2d.length);
+		
+//		System.out.println(tab2d[0][2]);
+
+
 		int[][] tab2d = { { 0, 2, 4 }, { 1, 3, 5 } };
-
-		System.out.println(tab2d[0][2]);
-
-		System.out.println(tab2d.length);
-
-		for (int i = 0; i < tab2d.length; i++) {
-			for (int j = 0; j < tab2d[i].length; j++) {
-				System.out.println(tab2d[i][j]);
-			}
+		for (int i = 0; i < tab2d[1].length; i++) {
+				System.out.print(tab2d[1][i]);
 		}
 
+		
+//		for (int i = 0; i < tab2d.length; i++) {
+//			for (int j = 0; j < tab2d[i].length; j++) {
+//				System.out.println(tab2d[i][j]);
+//			}
+//		}
+		
+//		int[] tab1 = { 1, 2, 3 };
+//		System.out.println(tab1[3]);
 	}
 
 	public static void inverse(String[] tab) {

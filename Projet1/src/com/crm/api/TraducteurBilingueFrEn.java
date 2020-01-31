@@ -5,6 +5,7 @@ package com.crm.api;
 
 import java.util.Scanner;
 
+
 /**
  * @author CRM
  *
@@ -51,7 +52,7 @@ public class TraducteurBilingueFrEn {
 			// ANGLAIS
 			// Recherche de la correspondance dans le dictionnaire
 			// Sous tableau des jours en anglais
-			for (int i = 0; i < dico[0].length; i++) {
+			for (int i = 0; i < dico[1].length; i++) {
 				if (jour.equalsIgnoreCase(dico[1][i])) {
 					// Le mot existe dans le dictionnaire
 					// Je peux utiliser l'indice i pour trouver le mot en francais
