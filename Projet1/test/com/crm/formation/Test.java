@@ -3,8 +3,6 @@
  */
 package com.crm.formation;
 
-import java.util.Arrays;
-
 /**
  * @author CRM
  *
@@ -101,10 +99,10 @@ public class Test {
 //		System.out.println(tab2d[0][2]);
 
 
-		int[][] tab2d = { { 0, 2, 4 }, { 1, 3, 5 } };
-		for (int i = 0; i < tab2d[1].length; i++) {
-				System.out.print(tab2d[1][i]);
-		}
+//		int[][] tab2d = { { 0, 2, 4 }, { 1, 3, 5 } };
+//		for (int i = 0; i < tab2d[1].length; i++) {
+//				System.out.print(tab2d[1][i]);
+//		}
 
 		
 //		for (int i = 0; i < tab2d.length; i++) {
@@ -115,7 +113,13 @@ public class Test {
 		
 //		int[] tab1 = { 1, 2, 3 };
 //		System.out.println(tab1[3]);
+		
+		String nombre = String.format("%010d", 20);
+		System.out.println(nombre);
 	}
+	
+	
+	
 
 	public static void inverse(String[] tab) {
 		System.out.println(tab[0]);
